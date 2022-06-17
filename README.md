@@ -29,7 +29,8 @@ extension ViewController: VSCallerDelegate {
 }
 
 ```
-And need add to info.plist 
+And be sure to add this code to info.plist
+
 ```xml
 	<key>NSCameraUsageDescription</key>
 	<string>camera please</string>
